@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "text": "Write paper results",
+      "day": "Monday",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Read book chapter 1",
+      "day": "Wednesday",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Stevens Stuff",
+      "day": "Friday",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "Watch movie thing",
+      "day": "Monday at 3",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "Write paper",
+      "day": "Monday @ 9",
+      "reminder": true,
+      "id": 7
+    }
+  ]
+}
