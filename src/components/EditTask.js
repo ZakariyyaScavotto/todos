@@ -13,8 +13,8 @@ const EditTask = ({ tasks, onEdit }) => {
 			alert("Please add a task")
 			return
 		}
-		if (typeof taskBeingEdited.id === "number") {
-			onEdit({ text, day, reminder }, taskBeingEdited.id)
+		if (typeof taskBeingEdited._id === "string") {
+			onEdit({ text, day, reminder }, taskBeingEdited._id)
 		} else {
 			onEdit(
 				{ text, day, reminder },
